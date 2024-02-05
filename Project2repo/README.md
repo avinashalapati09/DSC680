@@ -16,8 +16,7 @@ finally use these feature sets to train models and identify the sentiments of th
 
 <img width="332" alt="image" src="https://user-images.githubusercontent.com/13950516/167273870-2ebedc04-62b2-42a8-abbb-eb7078b9f968.png">
 
-Sentiment analysis can be defined as a process that automates mining of attitudes, opinions, views and emotions from text, speech, tweets and database sources through Natural Language Processing (NLP). Sentiment analysis involves classifying opinions in text into categories like "positive" or "negative”. It's also referred as subjectivity analysis, opinion mining, and appraisal extraction.
-The words opinion, sentiment, view and belief are used interchangeably but there are differences between them.
+Sentiment analysis can be defined as a process that automates mining of attitudes, opinions, views and emotions from text, speech, tweets and database sources through Natural Language Processing (NLP). Sentiment analysis involves classifying opinions in text into categories like "positive" or "negative”. It's also referred as subjectivity analysis, opinion mining, and appraisal extractiThe words opinion, sentiment, view and belief are used interchangeably but there are differences between them.
 
 - **Opinion** : A conclusion open to dispute (because different experts have different opinions)
 - **View** : subjective opinion
@@ -40,7 +39,6 @@ The dataset provided is the Sentiment140 Dataset which consists of 1,600,000 twe
 - **user** : It refers to the name of the user that tweeted 
 - **text** : It refers to the text of the tweet 
 
-![image](https://user-images.githubusercontent.com/13950516/167274017-6ac43147-db31-4f6c-b35a-bd3b9995cbb8.png)
 
 
 ### Data Cleansing
@@ -91,11 +89,6 @@ After training the model we then apply the evaluation measures to check how the 
 - **ROC-AUC Curve**
 
 
-![image](https://user-images.githubusercontent.com/13950516/167274366-63d73cde-6fd4-4c5f-ba0d-d6fd8370bd7b.png)
-
-
-
-![image](https://user-images.githubusercontent.com/13950516/167274403-94211279-1daf-4646-a297-355a1e4edc49.png)
 
 ### Conclusion
 Overall, we found that Logistic Regression is the best model for analyzing Sentiments on the dataset.
